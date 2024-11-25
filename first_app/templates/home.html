@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is homepage</h1>
+    <h1> {{ value | length }} </h1>
+    <h1>{{ Add | add:"5" }}</h1>
+    <h1>{{ slash | addslashes }}</h1>
+    <h1>{{ Cap | capfirst }}</h1>
+    <h1>{{ Cut | cut:" " }} </h1>
+    <h1>{{ Birthday | date:"D d M Y" }}</h1>
+    <h1> {{ Sort | dictsort:"age" }}</h1>
+    <h1> {{ Add | divisibleby:"3" }}</h1>
+    <h1>{{ value | first }}</h1>
+    <h1> {{ value | join:" // " }}</h1>
+    <h1> {{ value | last }}</h1>
+    <h1> {{ lines | linenumbers }}</h1>
+    <h1>{{ Lower | lower }}</h1>
+    <h1> {{ List | make_list }}</h1>
+    <h1> {{ value | slice:":2" }}</h1>
+    <h1>{{ Lower | slugify }}</h1>
+    <h1>{{ Birthday | time:"H:i" }}</h1>
+    <h1>{{ Word | wordcount }}</h1>
+</body>
+</html>
